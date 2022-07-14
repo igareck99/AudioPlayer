@@ -11,6 +11,7 @@
 		8BB838942876F045006E4D45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB838932876F045006E4D45 /* ContentView.swift */; };
 		8BB838962876F047006E4D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB838952876F047006E4D45 /* Assets.xcassets */; };
 		8BB838992876F047006E4D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB838982876F047006E4D45 /* Preview Assets.xcassets */; };
+		8BB838A02876F0BE006E4D45 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8389F2876F0BE006E4D45 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8BB838932876F045006E4D45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BB838952876F047006E4D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB838982876F047006E4D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BB8389F2876F0BE006E4D45 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		8BB838852876F044006E4D45 = {
 			isa = PBXGroup;
 			children = (
+				8BB8389F2876F0BE006E4D45 /* audio.mp3 */,
 				8BB838902876F044006E4D45 /* MusicPlayer */,
 				8BB8388F2876F044006E4D45 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB838A02876F0BE006E4D45 /* audio.mp3 in Resources */,
 				8BB838992876F047006E4D45 /* Preview Assets.xcassets in Resources */,
 				8BB838962876F047006E4D45 /* Assets.xcassets in Resources */,
 			);

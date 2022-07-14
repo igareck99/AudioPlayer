@@ -11,7 +11,12 @@ import SwiftUI
 struct MusicPlayerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+                    .navigationTitle("")
+                    .navigationBarHidden(true)
+                    .preferredColorScheme(.dark)
+            }
         }
     }
 }
